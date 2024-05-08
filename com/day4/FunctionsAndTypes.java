@@ -6,19 +6,19 @@ public class FunctionsAndTypes {
         public static void main(String[] args) {
             System.out.println("Implementing Interface Methods and Defining Functions and its Types");
 
-            Main main = new Main();
-            main.takesParameterNoReturnType("It takes input but does not return anything.");
-            String type2 = main.takesParameterReturnString("It takes input and Return String.");
+            FuncTypes funcType = new FuncTypes();
+            funcType.takesParameterNoReturnType("It takes input but does not return anything.");
+            String type2 = funcType.takesParameterReturnString("It takes input and Return String.");
             System.out.println("Type 2: "+ type2);
-            main.noParameterNoReturnType();
-            String type4 =main.noParameterReturnString();
+            funcType.noParameterNoReturnType();
+            String type4 =funcType.noParameterReturnString();
             System.out.println("Type 4: "+type4);
         }
     }
 
 
 
-class Main implements InterfaceType{
+class FuncTypes implements InterfaceType{
     public void takesParameterNoReturnType(String str) {
         System.out.println("Type 1: " + str);
     }

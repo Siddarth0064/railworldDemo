@@ -16,7 +16,7 @@ public class SwapTwoNumber {
         num1=num1-num2;
         System.out.printf("after swap : num1= %d    num2= %d\n",num1,num2);
 
-        System.out.println("Using BitWise Operator ");
+        System.out.println("Using BitWise Operator  ");
         System.out.print("Enter num3 :");
         int num3 = scan.nextInt();
         System.out.print("Enter num4 :");
