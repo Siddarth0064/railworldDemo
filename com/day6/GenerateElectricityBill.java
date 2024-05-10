@@ -6,7 +6,7 @@ public class GenerateElectricityBill {
 
     public static double calculateBill(int units) {
         return units <= 100 ? units * 2 :
-                units <= 150 ? 100 * 2 + (units - 100) * 3 :
+                  units <= 150 ? 100 * 2 + (units - 100) * 3 :
                         units <= 200 ? 100 * 2 + 50 * 3 + (units - 150) * 4 :
                                 units <= 250 ? 100 * 2 + 50 * 3 + 50 * 4 + (units - 200) * 5 :
                                         units <= 300 ? 100 * 2 + 50 * 3 + 50 * 4 + 50 * 5 + (units - 250) * 6 :
@@ -17,9 +17,9 @@ public class GenerateElectricityBill {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the Number of Units: ");
+        System.out.print("Enter Units of Electricity Consumed: ");
         int units = scan.nextInt();
         double amount =calculateBill(units);
-        System.out.println("Electricity Bill for "+units+" Units is "+ amount);
+        System.out.println("Electricity Bill for "+units+" Units is "+ amount+" Rs");
     }
 }
