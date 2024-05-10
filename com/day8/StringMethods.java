@@ -1,6 +1,6 @@
 package com.day8;
 
-public class UsingAllMethodsInString {
+public class StringMethods {
     public static void main(String[] args) {
         String str = "Hello, World!";
 
