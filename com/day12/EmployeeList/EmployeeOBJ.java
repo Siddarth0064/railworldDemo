@@ -1,11 +1,11 @@
 package com.day12.EmployeeList;
 
-public class EmployeeClass {
+public class EmployeeOBJ {
     private String empName;
     private int empID;
     private String empRole;
 
-    public EmployeeClass(String empName, String empRole, int empID) {
+    public EmployeeOBJ(String empName, String empRole, int empID) {
         this.empName = empName;
         this.empRole = empRole;
         this.empID = empID;
