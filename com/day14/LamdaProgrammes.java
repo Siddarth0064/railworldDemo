@@ -10,6 +10,7 @@ public class LamdaProgrammes {
                 .filter(n -> n % 2 == 0)
                 .forEach(n -> System.out.println("Even number: " + n));
 
+
         System.out.print("Greate Number then 5 : ");
         Arrays.stream(numbers)
                 .filter(n -> n>5)
