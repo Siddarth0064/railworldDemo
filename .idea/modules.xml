@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC/JDBC.iml" filepath="$PROJECT_DIR$/JDBC/JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LIBRARY MANAGEMENT SYSTEM/LIBRARY MANAGEMENT SYSTEM.iml" filepath="$PROJECT_DIR$/LIBRARY MANAGEMENT SYSTEM/LIBRARY MANAGEMENT SYSTEM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Railworld Programms.iml" filepath="$PROJECT_DIR$/Railworld Programms.iml" />
     </modules>
   </component>
